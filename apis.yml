@@ -1,4 +1,16 @@
 aid: amino
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/amino.png
 name: Amino
 description: Amino is a company surfaced as a portfolio company of techstars, union-square-ventures and
   added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
@@ -16,6 +28,10 @@ created: '2026-07-17'
 modified: '2026-07-17'
 tags:
 - Company
+- Social
+- Community
+- Mobile
+- Consumer
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +39,12 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/amino-domain-security.yml
 - type: Website
   url: https://aminoapps.com/
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
